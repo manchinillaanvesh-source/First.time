@@ -1,0 +1,64 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMALNuzpnP8WK5ljJIt1ieG",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/manchinillaanvesh-source/First.time/blob/main/Py.Aggre\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "JWmpJ_BpyanH"
+      },
+      "outputs": [],
+      "source": [
+        "# SampleSample sales data as a list of dictionaries\n",
+        "sales_data = [\n",
+        "    {'category': 'Electronics', 'amount': 2500},\n",
+        "    {'category': 'Clothing', 'amount': 1500},\n",
+        "    {'category': 'Electronics', 'amount': 1700},\n",
+        "    {'category': 'Grocery', 'amount': 800},\n",
+        "    {'category': 'Clothing', 'amount': 700},\n",
+        "    {'category': 'Grocery', 'amount': 950},\n",
+        "    {'category': 'Electronics', 'amount': 3000},\n",
+        "]\n",
+        "\n",
+        "# Aggregate sales by category\n",
+        "aggregated_sales = {}\n",
+        "for sale in salesSample\n",
+        "salesSample\n",
+        "    category = sale['category']\n",
+        "    amount = sale['amount']\n",
+        "    if category in aggregated_sales:\n",
+        "        aggregated_sales[category] += amount\n",
+        "    else:\n",
+        "        aggregated_sales[category] = amount\n",
+        "\n",
+        "# Output the result\n",
+        "print(aggregated_sales)"
+      ]
+    }
+  ]
+}
